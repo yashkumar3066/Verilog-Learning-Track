@@ -1,0 +1,444 @@
+$date
+   Tue Dec  5 12:15:48 2023
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module testbench $end
+$var reg 1 ! clk $end
+$var reg 9 " x0 [8:0] $end
+$var reg 9 # x1 [8:0] $end
+$var reg 9 $ x2 [8:0] $end
+$var reg 9 % x3 [8:0] $end
+$var reg 9 & x4 [8:0] $end
+$var reg 9 ' x5 [8:0] $end
+$var reg 9 ( x6 [8:0] $end
+$var reg 9 ) x7 [8:0] $end
+$var reg 3 * sel [2:0] $end
+$var wire 9 + yr [8:0] $end
+$var wire 9 , yi [8:0] $end
+$scope module fft $end
+$var wire 1 - clk $end
+$var wire 3 . sel [2:0] $end
+$var reg 9 / yr [8:0] $end
+$var reg 9 0 yi [8:0] $end
+$var wire 9 1 y0r [8:0] $end
+$var wire 9 2 y1r [8:0] $end
+$var wire 9 3 y2r [8:0] $end
+$var wire 9 4 y3r [8:0] $end
+$var wire 9 5 y4r [8:0] $end
+$var wire 9 6 y5r [8:0] $end
+$var wire 9 7 y6r [8:0] $end
+$var wire 9 8 y7r [8:0] $end
+$var wire 9 9 y0i [8:0] $end
+$var wire 9 : y1i [8:0] $end
+$var wire 9 ; y2i [8:0] $end
+$var wire 9 < y3i [8:0] $end
+$var wire 9 = y4i [8:0] $end
+$var wire 9 > y5i [8:0] $end
+$var wire 9 ? y6i [8:0] $end
+$var wire 9 @ y7i [8:0] $end
+$var wire 9 A x20r [8:0] $end
+$var wire 9 B x20i [8:0] $end
+$var wire 9 C x21r [8:0] $end
+$var wire 9 D x21i [8:0] $end
+$var wire 9 E x22r [8:0] $end
+$var wire 9 F x22i [8:0] $end
+$var wire 9 G x23r [8:0] $end
+$var wire 9 H x23i [8:0] $end
+$var wire 9 I x24r [8:0] $end
+$var wire 9 J x24i [8:0] $end
+$var wire 9 K x25r [8:0] $end
+$var wire 9 L x25i [8:0] $end
+$var wire 9 M x26r [8:0] $end
+$var wire 9 N x26i [8:0] $end
+$var wire 9 O x27r [8:0] $end
+$var wire 9 P x27i [8:0] $end
+$var wire 9 Q x10r [8:0] $end
+$var wire 9 R x10i [8:0] $end
+$var wire 9 S x11r [8:0] $end
+$var wire 9 T x11i [8:0] $end
+$var wire 9 U x12r [8:0] $end
+$var wire 9 V x12i [8:0] $end
+$var wire 9 W x13r [8:0] $end
+$var wire 9 X x13i [8:0] $end
+$var wire 9 Y x14r [8:0] $end
+$var wire 9 Z x14i [8:0] $end
+$var wire 9 [ x15r [8:0] $end
+$var wire 9 \ x15i [8:0] $end
+$var wire 9 ] x16r [8:0] $end
+$var wire 9 ^ x16i [8:0] $end
+$var wire 9 _ x17r [8:0] $end
+$var wire 9 ` x17i [8:0] $end
+$var wire 9 a x0 [8:0] $end
+$var wire 9 b x1 [8:0] $end
+$var wire 9 c x2 [8:0] $end
+$var wire 9 d x3 [8:0] $end
+$var wire 9 e x4 [8:0] $end
+$var wire 9 f x5 [8:0] $end
+$var wire 9 g x6 [8:0] $end
+$var wire 9 h x7 [8:0] $end
+$scope module s11 $end
+$var wire 9 a x [8:0] $end
+$var wire 9 e y [8:0] $end
+$var wire 9 i wr [8:0] $end
+$var wire 9 j wi [8:0] $end
+$var wire 9 Q x0r [8:0] $end
+$var wire 9 R x0i [8:0] $end
+$var wire 9 S x1r [8:0] $end
+$var wire 9 T x1i [8:0] $end
+$var wire 18 k p1 [17:0] $end
+$var wire 18 l p2 [17:0] $end
+$upscope $end
+$scope module s12 $end
+$var wire 9 c x [8:0] $end
+$var wire 9 g y [8:0] $end
+$var wire 9 m wr [8:0] $end
+$var wire 9 n wi [8:0] $end
+$var wire 9 U x0r [8:0] $end
+$var wire 9 V x0i [8:0] $end
+$var wire 9 W x1r [8:0] $end
+$var wire 9 X x1i [8:0] $end
+$var wire 18 o p1 [17:0] $end
+$var wire 18 p p2 [17:0] $end
+$upscope $end
+$scope module s13 $end
+$var wire 9 b x [8:0] $end
+$var wire 9 f y [8:0] $end
+$var wire 9 q wr [8:0] $end
+$var wire 9 r wi [8:0] $end
+$var wire 9 Y x0r [8:0] $end
+$var wire 9 Z x0i [8:0] $end
+$var wire 9 [ x1r [8:0] $end
+$var wire 9 \ x1i [8:0] $end
+$var wire 18 s p1 [17:0] $end
+$var wire 18 t p2 [17:0] $end
+$upscope $end
+$scope module s14 $end
+$var wire 9 d x [8:0] $end
+$var wire 9 h y [8:0] $end
+$var wire 9 u wr [8:0] $end
+$var wire 9 v wi [8:0] $end
+$var wire 9 ] x0r [8:0] $end
+$var wire 9 ^ x0i [8:0] $end
+$var wire 9 _ x1r [8:0] $end
+$var wire 9 ` x1i [8:0] $end
+$var wire 18 w p1 [17:0] $end
+$var wire 18 x p2 [17:0] $end
+$upscope $end
+$scope module s21 $end
+$var wire 9 Q x [8:0] $end
+$var wire 9 U y [8:0] $end
+$var wire 9 y wr [8:0] $end
+$var wire 9 z wi [8:0] $end
+$var wire 9 A x0r [8:0] $end
+$var wire 9 B x0i [8:0] $end
+$var wire 9 E x1r [8:0] $end
+$var wire 9 F x1i [8:0] $end
+$var wire 18 { p1 [17:0] $end
+$var wire 18 | p2 [17:0] $end
+$upscope $end
+$scope module s22 $end
+$var wire 9 S x [8:0] $end
+$var wire 9 W y [8:0] $end
+$var wire 9 } wr [8:0] $end
+$var wire 9 ~ wi [8:0] $end
+$var wire 9 C x0r [8:0] $end
+$var wire 9 D x0i [8:0] $end
+$var wire 9 G x1r [8:0] $end
+$var wire 9 H x1i [8:0] $end
+$var wire 18 !! p1 [17:0] $end
+$var wire 18 "! p2 [17:0] $end
+$upscope $end
+$scope module s23 $end
+$var wire 9 Y x [8:0] $end
+$var wire 9 ] y [8:0] $end
+$var wire 9 #! wr [8:0] $end
+$var wire 9 $! wi [8:0] $end
+$var wire 9 I x0r [8:0] $end
+$var wire 9 J x0i [8:0] $end
+$var wire 9 M x1r [8:0] $end
+$var wire 9 N x1i [8:0] $end
+$var wire 18 %! p1 [17:0] $end
+$var wire 18 &! p2 [17:0] $end
+$upscope $end
+$scope module s24 $end
+$var wire 9 [ x [8:0] $end
+$var wire 9 _ y [8:0] $end
+$var wire 9 '! wr [8:0] $end
+$var wire 9 (! wi [8:0] $end
+$var wire 9 K x0r [8:0] $end
+$var wire 9 L x0i [8:0] $end
+$var wire 9 O x1r [8:0] $end
+$var wire 9 P x1i [8:0] $end
+$var wire 18 )! p1 [17:0] $end
+$var wire 18 *! p2 [17:0] $end
+$upscope $end
+$scope module s31 $end
+$var wire 9 A x [8:0] $end
+$var wire 9 I y [8:0] $end
+$var wire 9 +! wr [8:0] $end
+$var wire 9 ,! wi [8:0] $end
+$var wire 9 1 x0r [8:0] $end
+$var wire 9 9 x0i [8:0] $end
+$var wire 9 5 x1r [8:0] $end
+$var wire 9 = x1i [8:0] $end
+$var wire 18 -! p1 [17:0] $end
+$var wire 18 .! p2 [17:0] $end
+$upscope $end
+$scope module s32 $end
+$var wire 9 C xr [8:0] $end
+$var wire 9 D xi [8:0] $end
+$var wire 9 K yr [8:0] $end
+$var wire 9 L yi [8:0] $end
+$var wire 9 /! wr [8:0] $end
+$var wire 9 0! wi [8:0] $end
+$var wire 9 2 x0r [8:0] $end
+$var wire 9 : x0i [8:0] $end
+$var wire 9 6 x1r [8:0] $end
+$var wire 9 > x1i [8:0] $end
+$var wire 18 1! p1 [17:0] $end
+$var wire 18 2! p2 [17:0] $end
+$var wire 18 3! p3 [17:0] $end
+$var wire 18 4! p4 [17:0] $end
+$upscope $end
+$scope module s33 $end
+$var wire 9 E x [8:0] $end
+$var wire 9 M y [8:0] $end
+$var wire 9 5! wr [8:0] $end
+$var wire 9 6! wi [8:0] $end
+$var wire 9 3 x0r [8:0] $end
+$var wire 9 ; x0i [8:0] $end
+$var wire 9 7 x1r [8:0] $end
+$var wire 9 ? x1i [8:0] $end
+$var wire 18 7! p1 [17:0] $end
+$var wire 18 8! p2 [17:0] $end
+$upscope $end
+$scope module s34 $end
+$var wire 9 G xr [8:0] $end
+$var wire 9 H xi [8:0] $end
+$var wire 9 O yr [8:0] $end
+$var wire 9 P yi [8:0] $end
+$var wire 9 9! wr [8:0] $end
+$var wire 9 :! wi [8:0] $end
+$var wire 9 4 x0r [8:0] $end
+$var wire 9 < x0i [8:0] $end
+$var wire 9 8 x1r [8:0] $end
+$var wire 9 @ x1i [8:0] $end
+$var wire 18 ;! p1 [17:0] $end
+$var wire 18 <! p2 [17:0] $end
+$var wire 18 =! p3 [17:0] $end
+$var wire 18 >! p4 [17:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b0 !!
+b1 "
+b0 "!
+b1 #
+b1 #!
+b1 $
+b0 $!
+b1 %
+b10 %!
+b1 &
+b0 &!
+b1 '
+b0 '!
+b1 (
+b111111111 (!
+b1 )
+b0 )!
+bx *
+b0 *!
+bx +
+b1 +!
+bx ,
+b0 ,!
+1-
+b100 -!
+bx .
+b0 .!
+bx /
+b10110101 /!
+bx 0
+b101001011 0!
+b1000 1
+b0 1!
+b0 2
+b0 2!
+b0 3
+b0 3!
+b0 4
+b0 4!
+b0 5
+b0 5!
+b0 6
+b111111111 6!
+b0 7
+b0 7!
+b0 8
+b0 8!
+b0 9
+b101001011 9!
+b0 :
+b101001011 :!
+b0 ;
+b0 ;!
+b0 <
+b0 <!
+b0 =
+b0 =!
+b0 >
+b0 >!
+b0 ?
+b0 @
+b100 A
+b0 B
+b0 C
+b0 D
+b0 E
+b0 F
+b0 G
+b0 H
+b100 I
+b0 J
+b0 K
+b0 L
+b0 M
+b0 N
+b0 O
+b0 P
+b10 Q
+b0 R
+b0 S
+b0 T
+b10 U
+b0 V
+b0 W
+b0 X
+b10 Y
+b0 Z
+b0 [
+b0 \
+b10 ]
+b0 ^
+b0 _
+b0 `
+b1 a
+b1 b
+b1 c
+b1 d
+b1 e
+b1 f
+b1 g
+b1 h
+b1 i
+b0 j
+b1 k
+b0 l
+b1 m
+b0 n
+b1 o
+b0 p
+b1 q
+b0 r
+b1 s
+b0 t
+b1 u
+b0 v
+b1 w
+b0 x
+b1 y
+b0 z
+b10 {
+b0 |
+b0 }
+b111111111 ~
+$end
+#5
+0!
+0-
+#10
+1!
+b0 *
+b1000 +
+b0 ,
+1-
+b0 .
+b1000 /
+b0 0
+#15
+0!
+0-
+#20
+1!
+b1 *
+b0 +
+1-
+b1 .
+b0 /
+#25
+0!
+0-
+#30
+1!
+b10 *
+1-
+b10 .
+#35
+0!
+0-
+#40
+1!
+b11 *
+1-
+b11 .
+#45
+0!
+0-
+#50
+1!
+b100 *
+1-
+b100 .
+#55
+0!
+0-
+#60
+1!
+b101 *
+1-
+b101 .
+#65
+0!
+0-
+#70
+1!
+b110 *
+1-
+b110 .
+#75
+0!
+0-
+#80
+1!
+b111 *
+1-
+b111 .
+#85
+0!
+0-
+#90
+1!
+1-
+#95
+0!
+0-

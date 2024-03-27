@@ -1,0 +1,40 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_FFT_behav xil_defaultlib.tb_FFT xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.SRL16E_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB18E1(DOA_REG=1,DOB_REG=1,RAM...
+Compiling module unisims_ver.DSP48E1(ADREG=0,CARRYINSELREG=0,...
+Compiling module unisims_ver.DSP48E1(ACASCREG=2,ADREG=0,AREG=...
+Compiling module unisims_ver.DSP48E1(ADREG=0,A_INPUT="CASCADE...
+Compiling module unisims_ver.DSP48E1(ACASCREG=2,AREG=2,BCASCR...
+Compiling module unisims_ver.SRLC32E_default
+Compiling module unisims_ver.RAM64X1D
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.FFT
+Compiling module xil_defaultlib.top_wrapper
+Compiling module xil_defaultlib.tb_FFT
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_FFT_behav

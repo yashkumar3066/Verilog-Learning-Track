@@ -1,0 +1,15 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"2.0",
+   "Default View_TopLeft":"-279,-190",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace inst xfft_0 -pg 1 -lvl 2 -x 380 -y 40 -defaultsOSRD
+preplace inst sim_clk_gen_0 -pg 1 -lvl 1 -x 10 -y 30 -defaultsOSRD
+preplace netloc sim_clk_gen_0_clk 1 1 1 110 20n
+levelinfo -pg 1 -90 10 380 560
+pagesize -pg 1 -db -bbox -sgen -90 -290 560 240
+"
+}
+

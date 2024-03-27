@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Oct 26 13:23:21 2023
+# Process ID: 32892
+# Current directory: C:/Codes/Verilog/hw/hw.runs/design_1_PWM_0_0_synth_1
+# Command line: vivado.exe -log design_1_PWM_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_PWM_0_0.tcl
+# Log file: C:/Codes/Verilog/hw/hw.runs/design_1_PWM_0_0_synth_1/design_1_PWM_0_0.vds
+# Journal file: C:/Codes/Verilog/hw/hw.runs/design_1_PWM_0_0_synth_1\vivado.jou
+# Running On: LAPTOP-BA9EVQUE, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16559 MB
+#-----------------------------------------------------------
+source design_1_PWM_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 491.996 ; gain = 201.137
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Codes/Verilog/hw/hw.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_PWM_0_0
+Command: synth_design -top design_1_PWM_0_0 -part xc7z007sclg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 34312
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1313.512 ; gain = 407.855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_PWM_0_0' [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ip/design_1_PWM_0_0/synth/design_1_PWM_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'PWM_v2_0' [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ipshared/d587/hdl/PWM_v2_0.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'PWM_AXI' [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ipshared/d587/hdl/PWM_AXI.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_AXI' (0#1) [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ipshared/d587/hdl/PWM_AXI.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'PWM_v2_0' (0#1) [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ipshared/d587/hdl/PWM_v2_0.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_PWM_0_0' (0#1) [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ip/design_1_PWM_0_0/synth/design_1_PWM_0_0.sv:53]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module PWM_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1412.672 ; gain = 507.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1412.672 ; gain = 507.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1412.672 ; gain = 507.016
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1412.672 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1468.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1468.422 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'reg_data_out_reg' [c:/Codes/Verilog/hw/hw.gen/sources_1/bd/design_1/ipshared/d587/hdl/PWM_AXI.sv:388]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 11    
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 10    
+	   5 Input   32 Bit        Muxes := 6     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module PWM_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module PWM_AXI is either unconnected or has no load
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[31]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[30]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[29]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[28]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[27]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[26]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[25]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[24]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[23]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[22]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[21]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[20]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[19]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[18]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[17]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[16]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[15]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[14]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[13]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[12]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[11]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[10]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[9]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[8]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[7]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[6]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[5]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[4]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[3]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[2]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[1]) is unused and will be removed from module design_1_PWM_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/PWM_AXI_inst/reg_data_out_reg[0]) is unused and will be removed from module design_1_PWM_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    24|
+|2     |LUT1   |     2|
+|3     |LUT2   |    29|
+|4     |LUT3   |     3|
+|5     |LUT4   |   130|
+|6     |LUT5   |    96|
+|7     |LUT6   |     7|
+|8     |FDRE   |   400|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1468.422 ; gain = 507.016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1468.422 ; gain = 562.766
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1468.422 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1468.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f1fd0fd9
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1468.422 ; gain = 942.258
+INFO: [Common 17-1381] The checkpoint 'C:/Codes/Verilog/hw/hw.runs/design_1_PWM_0_0_synth_1/design_1_PWM_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_PWM_0_0, cache-ID = 0afa6139bd2671f6
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Codes/Verilog/hw/hw.runs/design_1_PWM_0_0_synth_1/design_1_PWM_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_PWM_0_0_utilization_synth.rpt -pb design_1_PWM_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 26 13:24:09 2023...

@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ComplexMatrixMultiplier
+ERROR: [VRFC 10-3642] port 'a_real' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:24]
+ERROR: [VRFC 10-3642] port 'a_imag' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:25]
+ERROR: [VRFC 10-3642] port 'b_real' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:26]
+ERROR: [VRFC 10-3642] port 'b_imag' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:27]
+ERROR: [VRFC 10-3642] port 'result_real' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:28]
+ERROR: [VRFC 10-3642] port 'result_imag' must not be declared to be an array [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:29]
+ERROR: [VRFC 10-8530] module 'ComplexMatrixMultiplier' is ignored due to previous errors [C:/Codes/Verilog/complex_matrix_multiplication/complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v:23]

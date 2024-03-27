@@ -1,0 +1,82 @@
+$date
+	Thu Nov 16 12:14:41 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_melay $end
+$var wire 1 ! out $end
+$var reg 1 " clk $end
+$var reg 1 # in $end
+$var reg 1 $ rst $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # in $end
+$var wire 1 $ rst $end
+$var reg 1 % next_state $end
+$var reg 1 ! out $end
+$var reg 1 & state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x&
+x%
+1$
+x#
+0"
+x!
+$end
+#10000
+0!
+0%
+0&
+1"
+#20000
+0"
+0$
+#30000
+1"
+#40000
+0"
+0#
+#50000
+1"
+#60000
+1!
+1%
+0"
+1#
+#70000
+1&
+1"
+#80000
+0!
+0%
+0"
+0#
+#90000
+0&
+1"
+#100000
+1!
+1%
+0"
+1#
+#110000
+1&
+1"
+#120000
+0!
+0%
+0"
+0#
+#130000
+0&
+1"
+#140000
+0"

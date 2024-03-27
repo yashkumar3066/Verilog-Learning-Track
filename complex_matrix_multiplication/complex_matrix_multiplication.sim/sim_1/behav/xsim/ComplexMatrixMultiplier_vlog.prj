@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../complex_matrix_multiplication.srcs/sources_1/new/matrix_mul.v" \
+"../../../../complex_matrix_multiplication.srcs/sources_1/new/complex_matrix_mul.v" \
+
+sv xil_defaultlib  \
+"../../../../complex_matrix_multiplication.srcs/sources_1/new/complex.sv" \
+
+verilog xil_defaultlib  \
+"../../../../complex_matrix_multiplication.srcs/sim_1/new/Test_b.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

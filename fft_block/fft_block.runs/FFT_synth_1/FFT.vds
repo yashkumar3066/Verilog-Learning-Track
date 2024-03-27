@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Dec  5 12:28:26 2023
+# Process ID: 33716
+# Current directory: C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1
+# Command line: vivado.exe -log FFT.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FFT.tcl
+# Log file: C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT.vds
+# Journal file: C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1\vivado.jou
+# Running On: LAPTOP-BA9EVQUE, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16559 MB
+#-----------------------------------------------------------
+source FFT.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 490.750 ; gain = 193.289
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: FFT
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 62f778dd8b15e0d1 to dir: C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Codes/Verilog/fft_block/fft_block.cache/ip/2023.1/6/2/62f778dd8b15e0d1/FFT.dcp to C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Codes/Verilog/fft_block/fft_block.cache/ip/2023.1/6/2/62f778dd8b15e0d1/FFT_sim_netlist.v to C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Codes/Verilog/fft_block/fft_block.cache/ip/2023.1/6/2/62f778dd8b15e0d1/FFT_sim_netlist.vhdl to C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Codes/Verilog/fft_block/fft_block.cache/ip/2023.1/6/2/62f778dd8b15e0d1/FFT_stub.v to C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Codes/Verilog/fft_block/fft_block.cache/ip/2023.1/6/2/62f778dd8b15e0d1/FFT_stub.vhdl to C:/Codes/Verilog/fft_block/fft_block.runs/FFT_synth_1/FFT_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP FFT, cache-ID = 62f778dd8b15e0d1.
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  5 12:28:46 2023...

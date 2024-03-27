@@ -1,0 +1,40 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z007sclg400-1",
+      "gen_directory": "../../../../fft.gen/sources_1/bd/ff1",
+      "name": "ff1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xfft_0": "",
+      "sim_clk_gen_0": ""
+    },
+    "components": {
+      "xfft_0": {
+        "vlnv": "xilinx.com:ip:xfft:9.1",
+        "xci_name": "ff1_xfft_0_0",
+        "xci_path": "ip\\ff1_xfft_0_0\\ff1_xfft_0_0.xci",
+        "inst_hier_path": "xfft_0"
+      },
+      "sim_clk_gen_0": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "ff1_sim_clk_gen_0_0",
+        "xci_path": "ip\\ff1_sim_clk_gen_0_0\\ff1_sim_clk_gen_0_0.xci",
+        "inst_hier_path": "sim_clk_gen_0"
+      }
+    },
+    "nets": {
+      "sim_clk_gen_0_clk": {
+        "ports": [
+          "sim_clk_gen_0/clk",
+          "xfft_0/aclk"
+        ]
+      }
+    }
+  }
+}

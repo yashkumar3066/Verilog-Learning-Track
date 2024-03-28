@@ -1,0 +1,19 @@
+.option scale=1u
+.include techfile130.txt
+.include xor.spice
+
+vdd vdd 0 1.2
+
+va A 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 50NS 100NS)
+vb B 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 100NS 200NS)
+vabar Abar 0 1.2 PULSE(1.2 0 2NS 2NS 2NS 50NS 100NS)
+vbbar Bbar 0 1.2 PULSE(1.2 0 2NS 2NS 2NS 100NS 200NS)
+
+Xxor0 vdd A B Bbar Abar out 0 XOR
+.tran 0.1n 500n 0 0.1n
+.control
+run
+plot v(A) v(B) v(out)
+//plot -i(vdd)
+.endc
+.end

@@ -1,0 +1,166 @@
+cluster 1 name core
+corners 4 0 0   0 1397  1397 1397   1397 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal rst
+softpin name pin2 signal data[0]
+softpin name pin3 signal data[3]
+softpin name pin4 signal data[4]
+softpin name pin5 signal data[5]
+softpin name pin6 signal data[6]
+softpin name pin7 signal r
+softpin name pin8 signal PC[7]
+softpin name pin9 signal PC[6]
+softpin name pin10 signal PC[5]
+softpin name pin11 signal PC[4]
+softpin name pin12 signal PC[3]
+softpin name pin13 signal PC[2]
+softpin name pin14 signal PC[1]
+softpin name pin15 signal PC[0]
+softpin name pin16 signal w
+softpin name pin17 signal data[7]
+softpin name pin18 signal data[1]
+softpin name pin19 signal data[2]
+softpin name pin20 signal clk
+
+instance core_L
+corners 6 0 0 0 1612 806 1612 806 806 1612 806 1612 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal rst
+softpin name pin2 signal data[0]
+softpin name pin3 signal data[3]
+softpin name pin4 signal data[4]
+softpin name pin5 signal data[5]
+softpin name pin6 signal data[6]
+softpin name pin7 signal r
+softpin name pin8 signal PC[7]
+softpin name pin9 signal PC[6]
+softpin name pin10 signal PC[5]
+softpin name pin11 signal PC[4]
+softpin name pin12 signal PC[3]
+softpin name pin13 signal PC[2]
+softpin name pin14 signal PC[1]
+softpin name pin15 signal PC[0]
+softpin name pin16 signal w
+softpin name pin17 signal data[7]
+softpin name pin18 signal data[1]
+softpin name pin19 signal data[2]
+softpin name pin20 signal clk
+
+instance core_T
+corners 8 698 0 698 698 0 698 0 1396 2094 1396 2094 698 1396 698 1396 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal rst
+softpin name pin2 signal data[0]
+softpin name pin3 signal data[3]
+softpin name pin4 signal data[4]
+softpin name pin5 signal data[5]
+softpin name pin6 signal data[6]
+softpin name pin7 signal r
+softpin name pin8 signal PC[7]
+softpin name pin9 signal PC[6]
+softpin name pin10 signal PC[5]
+softpin name pin11 signal PC[4]
+softpin name pin12 signal PC[3]
+softpin name pin13 signal PC[2]
+softpin name pin14 signal PC[1]
+softpin name pin15 signal PC[0]
+softpin name pin16 signal w
+softpin name pin17 signal data[7]
+softpin name pin18 signal data[1]
+softpin name pin19 signal data[2]
+softpin name pin20 signal clk
+
+instance core_L2
+corners 6 0 0 0 1248 1248 1248 1248 624 1872 624 1872 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal rst
+softpin name pin2 signal data[0]
+softpin name pin3 signal data[3]
+softpin name pin4 signal data[4]
+softpin name pin5 signal data[5]
+softpin name pin6 signal data[6]
+softpin name pin7 signal r
+softpin name pin8 signal PC[7]
+softpin name pin9 signal PC[6]
+softpin name pin10 signal PC[5]
+softpin name pin11 signal PC[4]
+softpin name pin12 signal PC[3]
+softpin name pin13 signal PC[2]
+softpin name pin14 signal PC[1]
+softpin name pin15 signal PC[0]
+softpin name pin16 signal w
+softpin name pin17 signal data[7]
+softpin name pin18 signal data[1]
+softpin name pin19 signal data[2]
+softpin name pin20 signal clk
+
+pad 1 name twpin_PC[7]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[7] signal PC[7] layer 1 0 0
+pad 2 name twpin_PC[6]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[6] signal PC[6] layer 1 0 0
+pad 3 name twpin_PC[5]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[5] signal PC[5] layer 1 0 0
+pad 4 name twpin_PC[4]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[4] signal PC[4] layer 1 0 0
+pad 5 name twpin_PC[3]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[3] signal PC[3] layer 1 0 0
+pad 6 name twpin_PC[2]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[2] signal PC[2] layer 1 0 0
+pad 7 name twpin_PC[1]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[1] signal PC[1] layer 1 0 0
+pad 8 name twpin_PC[0]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name PC[0] signal PC[0] layer 1 0 0
+
+pad 9 name twpin_clk
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name clk signal clk layer 1 0 0
+
+pad 10 name twpin_data[7]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[7] signal data[7] layer 1 0 0
+pad 11 name twpin_data[6]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[6] signal data[6] layer 1 0 0
+pad 12 name twpin_data[5]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[5] signal data[5] layer 1 0 0
+pad 13 name twpin_data[4]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[4] signal data[4] layer 1 0 0
+pad 14 name twpin_data[3]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[3] signal data[3] layer 1 0 0
+pad 15 name twpin_data[2]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[2] signal data[2] layer 1 0 0
+pad 16 name twpin_data[1]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[1] signal data[1] layer 1 0 0
+pad 17 name twpin_data[0]
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name data[0] signal data[0] layer 1 0 0
+
+pad 18 name twpin_r
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name r signal r layer 1 0 0
+
+pad 19 name twpin_rst
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name rst signal rst layer 1 0 0
+
+pad 20 name twpin_w
+corners 4 -9 -19 -9 19 9 19 9 -19
+pin name w signal w layer 1 0 0
+

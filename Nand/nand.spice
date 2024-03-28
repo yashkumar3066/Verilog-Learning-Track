@@ -1,0 +1,24 @@
+* SPICE3 file created from nand.ext - technology: scmos
+.include techfile130.txt
+.option scale=1u
+.subckt NAND Vdd A B Out Gnd
+M1000 Vdd A Out w_22_n29# pmos w=31 l=12
++  ad=558 pd=98 as=744 ps=172
+M1001 a_48_n148# A Gnd Gnd nmos w=31 l=12
++  ad=558 pd=98 as=372 ps=86
+M1002 Out B Vdd w_22_n29# pmos w=31 l=12
++  ad=0 pd=0 as=0 ps=0
+M1003 Out B a_48_n148# Gnd nmos w=31 l=12
++  ad=372 pd=86 as=0 ps=0
+C0 A w_22_n29# 6.32fF
+C1 B Out 5.76fF
+C2 A B 7.20fF
+C3 A Out 5.76fF
+C4 B w_22_n29# 6.32fF
+C5 Out w_22_n29# 4.14fF
+C6 Gnd Gnd 32.99fF
+C7 Vdd Gnd 64.11fF
+C8 Out Gnd 75.44fF
+C9 B Gnd 19.02fF
+C10 A Gnd 20.17fF
+.ends

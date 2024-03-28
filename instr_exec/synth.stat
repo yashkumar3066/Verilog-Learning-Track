@@ -1,0 +1,17 @@
+syntax version:v1.1 date:Mon May 25 21:11:10 EDT 1992
+TIMESTAMP:Sat Dec  9 23:27:21 2023
+Statistics for synth:
+num_stdcells:57
+num_macros:0
+num_instances:0
+num_pads:20
+num_nets:103
+num_pins:188
+num_implicit_feeds:359
+num_equivs:359
+num_unequivs:0
+num_ports:20
+macro_area:0.000e+00
+tot_length:7904
+num_soft:1
+cell_height:247

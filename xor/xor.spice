@@ -1,0 +1,43 @@
+* SPICE3 file created from xor.ext - technology: scmos
+
+.option scale=1u
+.include techfile130.txt
+.subckt XOR vdd A B Abar Bbar out gnd
+M1000 out Abar a_21_n84# Gnd nmos w=30 l=8
++  ad=540 pd=156 as=330 ps=82
+M1001 a_n35_13# B vdd w_n37_10# pmos w=27 l=8
++  ad=783 pd=220 as=297 ps=76
+M1002 vdd A a_n35_13# w_n37_10# pmos w=27 l=8
++  ad=0 pd=0 as=0 ps=0
+M1003 a_n19_n84# A out Gnd nmos w=30 l=8
++  ad=330 pd=82 as=0 ps=0
+M1004 a_21_n84# Bbar gnd Gnd nmos w=30 l=8
++  ad=0 pd=0 as=390 ps=86
+M1005 out Bbar a_n35_13# w_n37_10# pmos w=27 l=8
++  ad=297 pd=76 as=0 ps=0
+M1006 gnd B a_n19_n84# Gnd nmos w=30 l=8
++  ad=0 pd=0 as=0 ps=0
+M1007 a_n35_13# Abar out w_n37_10# pmos w=27 l=8
++  ad=0 pd=0 as=0 ps=0
+C0 out B 2.40fF
+C1 w_n37_10# Bbar 3.64fF
+C2 a_n35_13# B 2.88fF
+C3 out Bbar 2.40fF
+C4 gnd Bbar 2.88fF
+C5 Abar w_n37_10# 3.64fF
+C6 A w_n37_10# 3.64fF
+C7 B w_n37_10# 3.64fF
+C8 Abar out 4.32fF
+C9 A out 2.40fF
+C10 A a_n35_13# 2.88fF
+C11 a_n35_13# w_n37_10# 3.52fF
+C12 gnd Abar 2.88fF
+C13 gnd Gnd 45.97fF
+C14 out Gnd 32.62fF
+C15 vdd Gnd 11.42fF
+C16 a_n35_13# Gnd 7.61fF
+C17 Abar Gnd 62.48fF
+C18 Bbar Gnd 62.95fF
+C19 B Gnd 21.24fF
+C20 A Gnd 18.14fF
+.ends

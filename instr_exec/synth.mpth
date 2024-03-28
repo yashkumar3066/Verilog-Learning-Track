@@ -1,0 +1,25 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:rst xspan:259 yspan:0 length:259 numpins:2
+net   2:data[0] xspan:259 yspan:0 length:259 numpins:2
+net   3:data[3] xspan:259 yspan:0 length:259 numpins:2
+net   4:data[4] xspan:259 yspan:0 length:259 numpins:2
+net   5:data[5] xspan:259 yspan:0 length:259 numpins:2
+net   6:data[6] xspan:259 yspan:0 length:259 numpins:2
+net   7:r xspan:1527 yspan:79 length:1606 numpins:2
+net   8:PC[7] xspan:1665 yspan:141 length:1806 numpins:2
+net   9:PC[6] xspan:699 yspan:361 length:1060 numpins:2
+net  10:PC[5] xspan:561 yspan:581 length:1142 numpins:2
+net  11:PC[4] xspan:423 yspan:801 length:1224 numpins:2
+net  12:PC[3] xspan:285 yspan:1021 length:1306 numpins:2
+net  13:PC[2] xspan:9 yspan:1241 length:1250 numpins:2
+net  14:PC[1] xspan:837 yspan:1461 length:2298 numpins:2
+net  15:PC[0] xspan:147 yspan:1681 length:1828 numpins:2
+net  16:w xspan:1803 yspan:1901 length:3704 numpins:2
+net  17:data[7] xspan:1389 yspan:2121 length:3510 numpins:2
+net  18:data[1] xspan:1251 yspan:2341 length:3592 numpins:2
+net  19:data[2] xspan:1113 yspan:2561 length:3674 numpins:2
+net  20:clk xspan:975 yspan:2781 length:3756 numpins:2

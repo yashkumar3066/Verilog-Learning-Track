@@ -1,0 +1,24 @@
+* SPICE3 file created from nor.ext - technology: scmos
+
+.include techfile130.txt
+.option scale=1u
+.subckt nor Vdd A B Out Gnd
+M1000 a_44_n44# B out Gnd nmos w=10 l=8
++  ad=110 pd=42 as=220 ps=64
+M1001 out A gnd Gnd nmos w=10 l=8
++  ad=0 pd=0 as=100 ps=40
+M1002 out B a_14_21# w_n7_16# pmos w=10 l=8
++  ad=110 pd=42 as=220 ps=64
+M1003 a_14_21# A vdd w_n7_16# pmos w=10 l=8
++  ad=0 pd=0 as=100 ps=40
+C0 w_n7_16# A 5.70fF
+C1 w_n7_16# B 5.70fF
+C2 out B 2.16fF
+C3 w_n7_16# vdd 2.54fF
+C4 out w_n7_16# 2.12fF
+C5 gnd Gnd 4.98fF
+C6 out Gnd 26.65fF
+C7 vdd Gnd 7.05fF
+C8 B Gnd 27.23fF
+C9 A Gnd 25.40fF
+.ends

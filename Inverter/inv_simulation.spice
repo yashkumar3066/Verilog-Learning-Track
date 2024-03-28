@@ -1,0 +1,16 @@
+.option scale=1u
+.include techfile130.txt
+.include inv.spice
+
+vdd vdd 0 1.2
+
+vin in 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 50NS 100NS)
+
+Xinv0 vdd in out 0 inv
+.tran 0.1n 500n 0 0.1n
+.control
+run
+plot v(in) v(out)
+//plot -i(vdd)
+.endc
+.end

@@ -1,0 +1,104 @@
+
+TimberWolfMC version:v2.2 date:Mon May 25 21:18:34 EDT 1992
+Authors: Carl Sechen, Bill Swartz, Kai-Win Lee
+         Dahe Chen, and Jimmy Lam
+         Yale University
+
+
+TimberWolfMC switches:
+	Graphics mode on
+	TimberWolfMC will inherit window
+
+
+
+
+
+TimberWolf instructed to do placement of circuit:<synth>
+track.pitch.x: 240
+track.pitch.y: 200
+chip.aspect.ratio: 0.75
+init_acc: 1.00
+
+The rand generator seed was: 12345
+
+
+The number of nets with  2 pins is 20
+The number of nets with 100 pins or more is 0
+The total number of nets is: 20
+The maximum number of pins on a single net is: 2
+
+Total cell area : 1.95e+06
+mean cell area : 1.95e+06      std deviation cell area : 0.00e+00
+mean short side : 1.25e+03      std deviation short side : 8.82e+02
+maxBinXG automatically set to:4
+maxBinYG automatically set to:3
+bdxlength:1612    bdylength:1209
+
+
+
+THE ROUTE COST OF THE CURRENT PLACEMENT: 33310
+THE PENALTY OF THE CURRENT PLACEMENT: -1499832457
+/usr/lib/graywolf/bin/genrows -w synth 10485762
+WARNING[space_pins]:overflow for cell:1 pin:pin6
+WARNING[space_pins]:overflow for cell:1 pin:pin9
+WARNING[space_pins]:overflow for cell:1 pin:pin14
+WARNING[space_pins]:overflow for cell:1 pin:pin20
+WARNING[space_pins]:overflow for cell:1 pin:pin19
+WARNING[space_pins]:overflow for cell:1 pin:pin18
+
+Initial Wiring Cost: 33310   Final Wiring Cost: 0
+############ Percent Wire Cost Reduction: 100
+
+
+Initial Wire Length: 33310   Final Wire Length: 0
+*********** Percent Wire Length Reduction: 100
+
+
+Initial Horiz. Wire: 14238   Final Horiz. Wire: 0
+$$$$$$$$$ Percent H-Wire Length Reduction: 100
+
+
+Initial Vert. Wire: 19072   Final Vert. Wire: 0
+@@@@@@@@@ Percent V-Wire Length Reduction: 100
+
+
+Statistics:
+Number of Cells: 1
+Number of Pads: 20
+Number of Nets: 20 
+Number of Pins: 40 
+
+
+************************************ 
+
+TimberWolf has completed its mission
+
+
+************************************ 
+
+
+
+Runtime Statistics
+-------------------------
+Machine name: captainnothing
+Date        : Sat Dec  9 23:27:21 2023
+
+User    time:   0.0 seconds
+System  time:   0.0 seconds
+Elapsed time:   0.0 seconds
+
+Average resident text size       =     0K
+Average resident data+stack size =     0K
+Maximum resident size            =  2368K
+Virtual memory size              = 1948094724K
+Virtual memory limit             =     0K (0K)
+
+Major page faults = 0
+Minor page faults = 259
+Swaps = 0
+
+Input blocks = 0
+Output blocks = 144
+
+Context switch (voluntary) = 16
+Context switch (involuntary) = 77

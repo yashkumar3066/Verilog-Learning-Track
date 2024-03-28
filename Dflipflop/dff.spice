@@ -1,0 +1,67 @@
+* SPICE3 file created from dff.ext - technology: scmos
+
+.option scale=1u
+.include techfile130.txt
+.subckt DFF vdd vin phi out gnd
+M1000 inv_3/in inv_0/in vdd vdd pmos w=6 l=2
++  ad=72 pd=48 as=120 ps=88
+M1001 inv_3/in inv_0/in gnd Gnd nmos w=6 l=2
++  ad=72 pd=48 as=120 ps=88
+M1002 out inv_1/in vdd vdd pmos w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1003 out inv_1/in gnd Gnd nmos w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1004 inv_0/in phi vin Gnd nmos w=6 l=2
++  ad=96 pd=56 as=42 ps=26
+M1005 inv_0/in inv_4/out vin vdd pmos w=6 l=2
++  ad=96 pd=56 as=42 ps=26
+M1006 inv_2/out out vdd vdd pmos w=6 l=2
++  ad=72 pd=48 as=0 ps=0
+M1007 inv_2/out out gnd Gnd nmos w=6 l=2
++  ad=72 pd=48 as=0 ps=0
+M1008 inv_1/in phi inv_3/in Gnd nmos w=6 l=2
++  ad=96 pd=56 as=0 ps=0
+M1009 inv_1/in inv_4/out inv_3/in vdd pmos w=6 l=2
++  ad=96 pd=56 as=0 ps=0
+M1010 inv_3/out inv_3/in vdd vdd pmos w=6 l=2
++  ad=72 pd=48 as=0 ps=0
+M1011 inv_3/out inv_3/in gnd Gnd nmos w=6 l=2
++  ad=72 pd=48 as=0 ps=0
+M1012 inv_1/in phi inv_2/out Gnd nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 inv_1/in inv_4/out inv_2/out vdd pmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 inv_4/out phi inv_4/vdd inv_4/vdd pmos w=6 l=2
++  ad=30 pd=22 as=30 ps=22
+M1015 inv_4/out phi inv_4/gnd Gnd nmos w=6 l=2
++  ad=30 pd=22 as=30 ps=22
+M1016 inv_0/in phi inv_3/out Gnd nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 inv_0/in inv_4/out inv_3/out vdd pmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 gnd inv_4/out 14.94fF
+C1 inv_2/out gnd 6.30fF
+C2 vdd gnd 4.42fF
+C3 vdd out 3.67fF
+C4 inv_3/out gnd 6.30fF
+C5 vdd inv_4/out 7.48fF
+C6 inv_1/in vdd 5.27fF
+C7 inv_3/in vdd 6.21fF
+C8 vdd inv_3/out 7.06fF
+C9 phi gnd 4.14fF
+C10 vdd inv_0/in 12.74fF
+C11 phi inv_4/out 3.73fF
+C12 inv_4/out Gnd 49.10fF
+C13 inv_0/in Gnd 42.13fF
+C14 gnd Gnd 24.51fF
+C15 inv_3/out Gnd 32.75fF
+C16 phi Gnd 239.84fF
+C17 vdd Gnd 29.23fF
+C18 inv_4/gnd Gnd 2.44fF
+C19 inv_4/vdd Gnd 3.95fF
+C20 inv_1/in Gnd 28.12fF
+C21 inv_2/out Gnd 40.34fF
+C22 inv_3/in Gnd 22.52fF
+C23 out Gnd 39.92fF
+C24 vin Gnd 12.70fF
+.ends

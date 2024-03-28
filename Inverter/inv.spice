@@ -1,0 +1,13 @@
+* SPICE3 file created from inv.ext - technology: scmos
+
+.option scale=1u
+.include techfile130.txt
+.subckt inv vdd in out gnd
+M1000 out in vdd vdd pmos w=6 l=2
++  ad=30 pd=22 as=30 ps=22
+M1001 out in gnd Gnd nmos w=6 l=2
++  ad=30 pd=22 as=30 ps=22
+C0 gnd Gnd 2.44fF
+C1 in Gnd 4.95fF
+C2 vdd Gnd 3.95fF
+.ends

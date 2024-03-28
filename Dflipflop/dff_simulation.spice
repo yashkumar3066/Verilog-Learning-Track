@@ -1,0 +1,17 @@
+.option scale=1u
+.include techfile130.txt
+.include dff.spice
+
+vdd vdd 0 1.2
+
+vphi phi 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 50NS 100NS)
+vin vin 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 300NS 600NS)
+
+Xdff0 vdd vin phi out 0 DFF
+.tran 0.1n 8000n 0 10n
+.control
+run
+plot v(out) v(vin)
+
+.endc
+.end

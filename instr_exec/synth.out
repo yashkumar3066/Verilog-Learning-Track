@@ -1,0 +1,940 @@
+
+TimberWolfSC version:v6.0 date:Mon May 25 21:19:07 EDT 1992
+Row-Based Placement and Global Routing Program
+Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
+         Yale University
+
+
+
+
+TimberWolf will perform a global route step
+feedThruWidth: 80
+track.pitch: 200
+route2act was not entered in the .par file
+route2act defaulted to track.pitch
+route2act: 200
+
+The random number generator seed is: 12345
+
+
+rowSep: -0.002024
+
+[get_stat_hints]:Found hints in <synth.stat> file
+[get_stat_hints]:Total cells:77 Number of nets:103
+
+[add_extra_cells]:Added 12 spacer cells to the gate array
+total cell length: 7904
+total block length: 6954
+block x-span:2318  block y-span:740
+
+
+TIMING FACTOR (COMPUTED) : 4.000000
+Using default value of bin.penalty.control:1.000000
+Original Average Cell Width:138.000000
+Adjusted Average Cell Width:138.000000
+numBinsG automatically set to:29
+binWidthG = 82
+average_cell_width is:138
+standard deviation of cell length is:53.1476
+TimberWolfSC starting from the beginning
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 42250
+
+The number of nets with 1 pins is 57
+The number of nets with 2 pins is 24
+The number of nets with 3 pins is 14
+The number of nets with 4 pins is 5
+The number of nets with 5 pins is 2
+The number of nets with 11 pins is 1
+The number of nets with 100 pins or more is 0
+Average number of pins per net = 1.825243
+The maximum number of pins on a single net is:11
+
+Percentage of Nets Connecting to at least 2 cells:1.00
+Percentage of Nets Connecting to at least 3 cells:0.53
+Percentage of Nets Connecting to at least 4 cells:0.19
+Percentage of Nets Connecting to at least 5 cells:0.08
+Percentage of Nets Connecting to at least 6 cells:0.03
+
+bdxlen:2926  bdylen:1216
+l:-467  t:779  r:2459  b:-437
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 30796
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 6782
+block:1 desire:2318
+block:2 desire:2318
+block:3 desire:2318
+Total Desired Length: 6954
+rowControl: 0.018     expected deviation above minimum:  0.00
+rowControl: 0.019     expected deviation above minimum:  0.00
+rowControl: 0.020     expected deviation above minimum:  0.00
+rowControl: 0.021     expected deviation above minimum:  0.00
+rowControl: 0.022     expected deviation above minimum:  0.00
+rowControl: 0.023     expected deviation above minimum:  0.00
+rowControl: 0.024     expected deviation above minimum:  0.00
+rowControl: 0.025     expected deviation above minimum:  0.00
+rowControl: 0.026     expected deviation above minimum:  0.00
+rowControl: 0.027     expected deviation above minimum:  0.00
+rowControl: 0.028     expected deviation above minimum:  0.00
+rowControl: 0.029     expected deviation above minimum:  0.00
+rowControl: 0.030     expected deviation above minimum:  0.00
+rowControl: 0.031     expected deviation above minimum:  0.00
+rowControl: 0.032     expected deviation above minimum:  0.00
+rowControl: 0.033     expected deviation above minimum:  0.00
+rowControl: 0.034     expected deviation above minimum:  0.00
+rowControl: 0.035     expected deviation above minimum:  0.00
+rowControl: 0.036     expected deviation above minimum:  0.00
+rowControl: 0.037     expected deviation above minimum:  0.00
+rowControl: 0.038     expected deviation above minimum:  0.00
+rowControl: 0.039     expected deviation above minimum:  0.00
+rowControl: 0.040     expected deviation above minimum:  0.00
+rowControl: 0.041     expected deviation above minimum:  0.00
+rowControl: 0.042     expected deviation above minimum:  0.00
+rowControl: 0.043     expected deviation above minimum:  0.00
+rowControl: 0.044     expected deviation above minimum:  0.00
+rowControl: 0.045     expected deviation above minimum:  0.00
+rowControl: 0.046     expected deviation above minimum:  0.00
+rowControl: 0.047     expected deviation above minimum:  0.00
+rowControl: 0.048     expected deviation above minimum:  0.00
+rowControl: 0.049     expected deviation above minimum:  0.00
+rowControl: 0.050     expected deviation above minimum:  0.00
+rowControl: 0.051     expected deviation above minimum:  0.00
+rowControl: 0.052     expected deviation above minimum:  0.00
+rowControl: 0.053     expected deviation above minimum:  5.99
+
+Iter T        fds    Wire     Penal  Time     P_lim  err binC  rowC timeC  s/p  rej. Acc. Vwt
+ -1: 0.00e+00      0 66404    1406   0       999999 0.00 1.00  5.02  3.00 0.00 0.00 0.950
+  0: 7.52e+03      0 60050    950    0       999999 0.00 1.00  5.02  3.00 0.58 0.00 0.952
+  1: 7.03e+03      0 67466    1026   0       999999 0.00 1.00  4.43  3.00 0.57 0.00 0.955
+  2: 5.43e+03      0 59037    950    0        10452 0.00 1.00  3.88  3.00 0.58 0.00 0.940
+  3: 3.77e+03      0 55803    1596   0         8163 0.00 1.00  3.30  3.00 0.58 0.00 0.919
+  4: 2.65e+03      0 62562    950    0         6481 0.00 1.00  3.01  3.00 0.57 0.00 0.887
+  5: 1.92e+03      0 58841    1634   0         5311 0.00 1.00  2.43  3.00 0.58 0.00 0.854
+  6: 1.64e+03      0 63140    1178   0         4375 0.00 1.00  2.16  3.00 0.58 0.00 0.808
+  7: 1.38e+03      0 56449    1482   0         4118 0.00 1.00  1.70  3.00 0.58 0.00 0.783
+  8: 1.26e+03      0 62210    1254   0         3681 0.00 1.00  1.37  3.00 0.60 0.00 0.747
+  9: 1.10e+03      0 59545    950    0         3413 0.00 1.00  1.00  3.00 0.61 0.00 0.726
+ 10: 9.92e+02      0 54514    1558   0         3215 0.00 1.00  1.00  3.00 0.63 0.00 0.698
+ 11: 9.29e+02      0 50911    1178   0         2950 0.00 1.00  1.00  3.00 0.62 0.00 0.669
+ 12: 8.46e+02      0 51436    950    0         2880 0.00 1.00  1.00  3.00 0.65 0.00 0.649
+ 13: 7.59e+02      0 47721    950    0         2723 0.00 1.00  1.00  3.00 0.65 0.00 0.628
+ 14: 7.09e+02      0 53246    950    0         2574 0.00 1.00  1.00  3.00 0.62 0.00 0.603
+ 15: 7.32e+02      0 47728    950    0         2556 0.00 1.00  1.00  3.00 0.65 0.00 0.572
+ 16: 6.63e+02      0 46833    1444   0         2614 0.00 1.00  1.00  3.00 0.63 0.00 0.565
+ 17: 6.34e+02      0 48935    950    0         2391 0.00 1.00  1.00  3.00 0.67 0.00 0.540
+ 18: 6.05e+02      0 42339    950    0         2289 0.00 1.00  1.00  3.00 0.69 0.00 0.521
+ 19: 5.97e+02      0 42842    950    0         2189 0.00 1.00  1.00  3.00 0.68 0.00 0.500
+ 20: 5.31e+02      0 42419    950    0         2219 0.00 1.00  1.00  3.00 0.65 0.00 0.493
+ 21: 5.22e+02      0 43408    950    0         2048 0.00 1.00  1.00  3.00 0.68 0.00 0.466
+ 22: 5.01e+02      0 37505    950    0         1967 0.00 1.00  1.00  3.00 0.70 0.00 0.452
+ 23: 4.79e+02      0 39877    950    0         1936 0.00 1.00  1.00  3.00 0.69 0.00 0.444
+ 24: 4.93e+02      0 37945    950    0         1797 0.00 1.00  1.00  3.00 0.70 0.00 0.437
+ 25: 4.61e+02      0 35281    950    0         1812 0.00 1.00  1.00  3.00 0.68 0.00 0.446
+ 26: 4.62e+02      0 42025    950    0         1921 0.00 1.00  1.00  3.00 0.68 0.00 0.440
+ 27: 4.92e+02      0 39151    950    0         1819 0.00 1.00  1.00  3.00 0.71 0.00 0.433
+ 28: 4.78e+02      0 40652    1216   0         1833 0.00 1.00  1.00  3.00 0.66 0.00 0.443
+ 29: 4.53e+02      0 37494    988    0         1810 0.00 1.00  1.00  3.00 0.68 0.00 0.445
+ 30: 4.61e+02      0 37388    1064   0         1758 0.00 1.00  1.00  3.00 0.70 0.00 0.438
+ 31: 4.58e+02      0 42105    950    0         1689 0.00 1.00  1.00  3.00 0.71 0.00 0.441
+ 32: 4.49e+02      0 39664    988    0         1827 0.00 1.00  1.00  3.00 0.70 0.00 0.442
+ 33: 4.61e+02      0 39293    950    0         1804 0.00 1.00  1.00  3.00 0.69 0.00 0.437
+ 34: 4.41e+02      0 38001    1102   0         1730 0.00 1.00  1.00  3.00 0.71 0.00 0.444
+ 35: 4.52e+02      0 39222    950    0         1764 0.00 1.00  1.00  3.00 0.72 0.00 0.437
+ 36: 4.62e+02      0 38472    950    0         1718 0.00 1.00  1.00  3.00 0.70 0.00 0.438
+ 37: 4.16e+02      0 35275    1444   0         1718 0.00 1.00  1.00  3.00 0.64 0.00 0.450
+ 38: 4.35e+02      0 42269    950    0         1629 0.00 1.00  1.00  3.00 0.70 0.00 0.435
+ 39: 4.09e+02      0 40010    1140   0         1654 0.00 1.00  1.00  3.00 0.69 0.00 0.446
+ 40: 4.37e+02      0 44318    950    0         1686 0.00 1.00  1.00  3.00 0.69 0.00 0.434
+ 41: 4.12e+02      0 35819    950    0         1639 0.00 1.00  1.00  3.00 0.69 0.00 0.446
+ 42: 4.06e+02      0 34634    950    0         1561 0.00 1.00  1.00  3.00 0.67 0.00 0.441
+ 43: 4.12e+02      0 35113    950    0         1545 0.00 1.00  1.00  3.00 0.70 0.00 0.439
+ 44: 3.90e+02      0 34537    1406   0         1619 0.00 1.00  1.00  3.00 0.68 0.00 0.445
+ 45: 4.11e+02      0 34280    950    0         1535 0.00 1.00  1.00  3.00 0.74 0.00 0.434
+ 46: 3.78e+02      0 36217    950    0         1511 0.00 1.00  1.00  3.00 0.66 0.00 0.449
+ 47: 3.88e+02      0 36159    950    0         1514 0.00 1.00  1.00  3.00 0.70 0.00 0.437
+ 48: 4.00e+02      0 35246    950    0         1445 0.00 1.00  1.00  3.00 0.68 0.00 0.437
+ 49: 3.74e+02      0 34054    950    0         1511 0.00 1.00  1.00  3.00 0.72 0.00 0.446
+ 50: 3.60e+02      0 34486    1064   0         1485 0.00 1.00  1.00  3.00 0.68 0.00 0.444
+ 51: 3.47e+02      0 32128    950    0         1441 0.00 1.00  1.00  3.00 0.68 0.00 0.444
+ 52: 3.51e+02      0 30905    950    0         1392 0.00 1.00  1.00  3.00 0.71 0.00 0.439
+ 53: 3.43e+02      0 31409    950    0         1308 0.00 1.00  1.00  3.00 0.67 0.00 0.442
+ 54: 3.45e+02      0 36749    950    0         1340 0.00 1.00  1.00  3.00 0.69 0.00 0.440
+ 55: 3.23e+02      0 32841    950    0         1358 0.00 1.00  1.00  3.00 0.69 0.00 0.446
+ 56: 3.39e+02      0 33010    950    0         1302 0.00 1.00  1.00  3.00 0.68 0.00 0.435
+ 57: 3.21e+02      0 33208    1102   0         1305 0.00 1.00  1.00  3.00 0.66 0.00 0.445
+ 58: 3.13e+02      0 27640    950    0         1311 0.00 1.00  1.00  3.00 0.66 0.00 0.442
+ 59: 3.09e+02      0 33634    950    0         1241 0.00 1.00  1.00  3.00 0.67 0.00 0.441
+ 60: 2.99e+02      0 31449    950    0         1193 0.00 1.00  1.00  3.00 0.66 0.00 0.443
+ 61: 2.99e+02      0 31871    950    0         1192 0.00 1.00  1.00  3.00 0.65 0.00 0.440
+ 62: 3.00e+02      0 37127    1064   0         1184 0.00 1.00  1.00  3.00 0.66 0.00 0.440
+ 63: 2.88e+02      0 33528    950    0         1156 0.00 1.00  1.00  3.00 0.67 0.00 0.444
+ 64: 2.97e+02      0 32920    950    0         1135 0.00 1.00  1.00  3.00 0.67 0.00 0.436
+ 65: 2.79e+02      0 30456    950    0         1119 0.00 1.00  1.00  3.00 0.68 0.00 0.446
+ 66: 2.83e+02      0 31598    1064   0         1136 0.00 1.00  1.00  3.00 0.66 0.00 0.439
+ 67: 2.61e+02      0 30352    1026   0         1130 0.00 1.00  1.00  3.00 0.66 0.00 0.448
+ 68: 2.68e+02      0 27474    950    0         1082 0.00 1.07  1.00  3.00 0.65 0.00 0.437
+ 69: 2.61e+02      0 29978    950    0         1026 0.00 1.00  1.00  3.00 0.65 0.00 0.442
+ 70: 2.53e+02      0 30899    950    0         1017 1.00 1.00  1.00  3.00 0.66 0.00 0.443
+ 71: 2.42e+02      0 27597    950    0         1035 0.00 1.00  1.00  3.00 0.70 0.00 0.444
+ 72: 2.43e+02      0 28006    1292   0          976 0.00 1.00  1.00  3.00 0.68 0.00 0.440
+ 73: 2.40e+02      0 26659    950    0          917 0.00 1.00  1.06  3.00 0.59 0.00 0.441
+ 74: 2.38e+02      0 28972    950    0          911 0.00 1.13  1.00  3.00 0.63 0.00 0.441
+ 75: 2.32e+02      0 27674    988    0          976 0.00 1.21  1.00  3.00 0.61 0.00 0.442
+ 76: 2.41e+02      0 26055    1064   0          904 0.00 1.22  1.00  3.00 0.60 0.00 0.436
+ 77: 2.21e+02      0 27476    1216   0          930 0.00 1.14  1.00  3.00 0.61 0.00 0.448
+ 78: 2.29e+02      0 28140    950    0          869 0.00 1.06  1.06  3.00 0.62 0.00 0.436
+ 79: 2.04e+02      0 27200    950    0          891 0.00 1.04  1.00  3.00 0.68 0.00 0.451
+ 80: 2.07e+02      0 26123    950    0          881 0.00 1.07  1.00  3.00 0.63 0.00 0.439
+ 81: 1.94e+02      0 24532    950    0          825 0.00 1.01  1.00  3.00 0.66 0.00 0.437
+ 82: 1.81e+02      0 24592    950    0          769 0.07 1.00  1.00  3.00 0.60 0.00 0.418
+ 83: 1.71e+02      0 22866    950    0          780 0.00 1.00  1.00  3.00 0.66 0.00 0.398
+ 84: 1.72e+02      0 22613    950    0          706 0.00 1.08  1.00  3.00 0.63 0.00 0.375
+ 85: 1.67e+02      0 25901    950    0          726 0.00 1.10  1.00  3.00 0.63 0.00 0.362
+ 86: 1.50e+02      0 23535    988    0          727 0.00 1.11  1.00  3.00 0.69 0.00 0.354
+ 87: 1.54e+02      0 22880    950    0          709 0.00 1.06  1.00  3.00 0.61 0.00 0.325
+ 88: 1.50e+02      0 21649    950    0          680 0.00 1.15  1.00  3.00 0.62 0.00 0.315
+ 89: 1.36e+02      0 22376    950    0          631 0.00 1.07  1.00  3.00 0.61 0.00 0.308
+ 90: 1.26e+02      0 19644    950    0          609 0.00 1.07  1.00  3.00 0.68 0.00 0.294
+ 91: 1.30e+02      0 20654    950    0          609 0.01 1.11  1.00  3.00 0.63 0.00 0.270
+ 92: 1.23e+02      0 23400    950    0          582 0.01 1.15  1.02  3.00 0.60 0.01 0.267
+ 93: 1.07e+02      0 19171    950    0          576 0.01 1.00  1.06  3.00 0.61 0.00 0.263
+ 94: 1.15e+02      0 19314    950    0          515 0.00 1.00  1.11  3.00 0.62 0.01 0.232
+ 95: 1.09e+02      0 18803    950    0          519 0.00 1.06  1.19  3.00 0.55 0.01 0.233
+ 96: 1.04e+02      0 17581    950    0          526 0.01 1.00  1.28  3.00 0.59 0.00 0.223
+ 97: 1.01e+02      0 19094    950    0          488 0.00 1.02  1.38  3.00 0.57 0.01 0.211
+ 98: 9.52e+01      0 18031    988    0          484 0.00 1.01  1.51  3.00 0.56 0.02 0.205
+ 99: 9.18e+01      0 18784    950    0          455 0.00 1.00  1.71  3.00 0.56 0.02 0.194
+100: 8.72e+01      0 17590    950    0          434 0.00 1.00  1.88  3.00 0.55 0.03 0.187
+101: 8.34e+01      0 16070    950    0          424 0.01 1.00  2.08  3.00 0.57 0.04 0.178
+102: 8.51e+01      0 18449    950    0          445 0.01 1.06  2.29  3.00 0.62 0.04 0.164
+103: 8.17e+01      0 17834    950    0          429 0.00 1.16  2.53  3.00 0.53 0.06 0.163
+104: 8.80e+01      0 17630    950    0          463 0.00 1.27  2.80  3.00 0.49 0.07 0.145
+105: 8.53e+01      0 17703    950    0          480 0.00 1.29  3.09  3.00 0.44 0.07 0.148
+106: 7.67e+01      0 16986    950    0          432 0.00 1.21  3.41  3.00 0.51 0.08 0.149
+107: 7.33e+01      0 18486    950    0          404 0.00 1.13  3.75  3.00 0.50 0.07 0.137
+108: 6.55e+01      0 16409    950    0          398 0.00 1.07  4.13  3.00 0.54 0.08 0.138
+109: 6.90e+01      0 16981    950    0          371 0.00 1.06  4.54  3.00 0.43 0.10 0.116
+110: 6.25e+01      0 16688    950    0          354 0.00 1.00  4.98  3.00 0.52 0.11 0.125
+111: 6.19e+01      0 17347    950    0          389 0.00 1.00  5.45  3.00 0.58 0.09 0.111
+112: 6.11e+01      0 15589    950    0          342 0.00 1.00  5.96  3.00 0.61 0.12 0.107
+113: 5.71e+01      0 16869    950    0          369 0.00 1.01  6.50  3.00 0.70 0.09 0.108
+114: 5.67e+01      0 16255    950    0          336 0.00 1.09  7.09  3.00 0.49 0.17 0.097
+115: 5.40e+01      0 16975    950    0          321 0.00 1.01  7.71  3.00 0.51 0.15 0.097
+116: 5.51e+01      0 15946    950    0          329 0.00 1.01  7.71  3.00 0.47 0.16 0.086
+117: 5.66e+01      0 16070    950    0          330 0.00 1.01  7.71  3.00 0.37 0.18 0.081
+118: 5.14e+01      0 15749    950    0          327 0.00 1.01  7.71  3.00 0.41 0.14 0.090
+119: 4.92e+01      0 14877    950    0          281 0.01 1.01  7.71  3.00 0.43 0.21 0.081
+120: 5.04e+01      0 15693    950    0          301 0.01 1.01  7.71  3.00 0.46 0.22 0.071
+121: 4.95e+01      0 15121    950    0          278 0.00 1.01  7.71  3.00 0.39 0.25 0.072
+122: 4.39e+01      0 15435    950    0          276 0.00 1.01  7.71  3.00 0.48 0.25 0.079
+123: 4.15e+01      0 15409    950    0          287 0.00 1.01  7.71  3.00 0.34 0.26 0.070
+124: 4.20e+01      0 15576    950    0          236 0.00 1.01  7.71  3.00 0.41 0.31 0.060
+125: 3.33e+01      0 15772    950    0          275 0.01 1.01  7.71  3.00 0.35 0.29 0.061
+126: 4.01e+01      0 15300    950    0          222 0.00 1.01  7.71  3.00 0.33 0.37 0.055
+127: 3.63e+01      0 15228    950    0          227 0.00 1.01  7.71  3.00 0.30 0.35 0.056
+128: 3.42e+01      0 15580    950    0          241 0.00 1.01  7.71  3.00 0.30 0.34 0.053
+129: 3.62e+01      0 15991    950    0          200 0.00 1.01  7.71  3.00 0.38 0.39 0.050
+130: 3.48e+01      0 15277    950    0          206 0.00 1.01  7.71  3.00 0.37 0.39 0.049
+131: 4.16e+01      0 15350    950    0          185 0.00 1.01  7.71  3.00 0.34 0.43 0.045
+132: 3.31e+01      0 15368    950    0          184 0.00 1.01  7.71  3.00 0.44 0.42 0.047
+133: 2.69e+01      0 15010    950    0          190 0.00 1.01  7.71  3.00 0.46 0.41 0.045
+134: 2.83e+01      0 15166    950    0          190 0.00 1.01  7.71  3.00 0.32 0.41 0.040
+135: 3.41e+01      0 15340    950    0          203 0.00 1.01  7.71  3.00 0.33 0.40 0.037
+136: 2.85e+01      0 15212    950    0          193 0.00 1.01  7.71  3.00 0.39 0.41 0.039
+137: 3.13e+01      0 14986    950    0          192 0.00 1.01  7.71  3.00 0.34 0.40 0.034
+138: 2.74e+01      0 14626    950    0          164 0.00 1.01  7.71  3.00 0.41 0.44 0.034
+139: 2.83e+01      0 14492    950    0          141 0.00 1.01  7.71  3.00 0.43 0.50 0.031
+140: 2.32e+01      0 15148    950    0          154 0.00 1.01  7.71  3.00 0.30 0.48 0.031
+141: 2.22e+01      0 14172    950    0          173 0.00 1.01  7.71  3.00 0.47 0.43 0.027
+142: 2.31e+01      0 14215    950    0          119 0.00 1.01  7.71  3.00 0.40 0.52 0.024
+143: 1.72e+01      0 14004    950    0          153 0.00 1.01  7.71  3.00 0.31 0.48 0.026
+144: 1.14e+01      0 14220    950    0          116 0.00 1.01  7.71  3.00 0.34 0.53 0.025
+145: 1.23e+01      0 14289    950    0           82 0.00 1.01  7.71  3.00 0.29 0.57 0.018
+146: 1.40e+01      0 14436    950    0           45 0.00 1.01  7.71  3.00 0.34 0.60 0.016
+147: 1.22e+01      0 13981    950    0           85 0.00 1.01  7.71  3.00 0.43 0.57 0.016
+148: 8.93e+00      0 14205    950    0           74 0.00 1.01  7.71  3.00 0.47 0.59 0.016
+149: 8.61e+00      0 13952    950    0           42 0.01 1.01  7.71  3.00 0.53 0.63 0.011
+150: 5.63e+00      0 13686    950    0          100 0.00 1.01  7.71  3.00 0.76 0.57 0.013
+151: 4.24e+00      0 14058    950    0          159 0.00 1.01  7.71  3.00 0.79 0.48 0.010
+152: 2.36e+00      0 14039    950    0            4 0.01 1.01  7.71  3.00 0.86 0.65 0.011
+153: 1.44e+00      0 13789    950    0           70 0.00 1.01  7.71  3.00 0.53 0.60 0.008
+154: 7.10e-01      0 14105    950    0            1 0.00 1.01  7.71  3.00 0.47 0.67 0.008
+155: 3.18e-01      0 14319    950    0            0 0.00 1.01  7.71  3.00 0.57 0.66 0.008
+Total Wire Length - X-Component:8443
+Total Wire Length - Y-Component:7711
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2470                  152        2318
+    3                  2831                  513        2318
+
+LONGEST Block is:3   Its length is:2831
+total penalty is 950
+Removed the cell overlaps --- Will do neighbor interchanges only now
+
+TOTAL INTERCONNECT LENGTH: 16154
+initialRowControl:   0.292
+finalRowControl:   0.053
+iter      T      Wire accept Time
+ 157  0.001     16252    5%  0       
+ 158  0.001     16245    5%  0       
+ 159  0.001     16511    4%  0       
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7911
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7911
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7911
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 12
+
+
+no. of accepted flips: 4
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+THIS G. ROUTING IS BEING SAVED AS BEST SO FAR
+
+FINAL NUMBER OF ROUTING TRACKS: 11
+
+MAX OF CHANNEL:  1  is:   2
+MAX OF CHANNEL:  2  is:   4
+MAX OF CHANNEL:  3  is:   2
+MAX OF CHANNEL:  4  is:   3
+Confirming number of eliminated feeds:0
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7879
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7879
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7879
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 13
+
+
+no. of accepted flips: 4
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 12
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7934
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7934
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7934
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 13
+
+
+no. of accepted flips: 3
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 12
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+TimberWolfSC using absolute_minimum_feeds
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 30
+ the number of switchable L segment = 19
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 31
+ the number of switchable L segment = 26
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	8808
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	-6		total_red:-6
+iterations              :	4
+final total global wire :	8802
+final total time penalty:	0
+
+Total global wire reduced by:	0.068%
+
+VERIFICATION
+final total global wire :	8802
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 12
+
+
+no. of accepted flips: 2
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7958
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7958
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7958
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 13
+
+
+no. of accepted flips: 4
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 12
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7939
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7939
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7939
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 12
+
+
+no. of accepted flips: 3
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 12
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 35
+ the number of switchable L segment = 20
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 37
+ the number of switchable L segment = 31
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	7948
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	7948
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	7948
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 12
+
+
+no. of accepted flips: 2
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+Actual # of Feed Cells Added:	0
+
+
+TimberWolfSC did call even_the_rows()
+TimberWolfSC using absolute_minimum_feeds
+Total Wire Length - X-Component:7466
+Total Wire Length - Y-Component:9045
+Time Penalty:0
+ the number of net = 103
+ the number of tilted segment = 30
+ the number of switchable L segment = 19
+Total Wire Length - X-Component:7485
+Total Wire Length - Y-Component:9287
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                  2603                  285        2318
+    2                  2641                  323        2318
+    3                  2660                  342        2318
+
+LONGEST Block is:3   Its length is:2660
+ the number of tilted segment = 31
+ the number of switchable L segment = 26
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603                   285
+  2               2641                   323
+  3               2660                   342
+
+LONGEST Row is:3   Its length is:2660
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1               2603 
+  2               2641 
+  3               2660 
+
+LONGEST Row is:3   Its length is:2660
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                  2603                  285
+    2                  2641                  323
+    3                  2660                  342
+
+LONGEST Block is:3   Its length is:2660
+initial total global wire   :	8796
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:0
+reduction:	0		total_red:0
+iterations              :	3
+final total global wire :	8796
+final total time penalty:	0
+
+Total global wire reduced by:	0.000%
+
+VERIFICATION
+final total global wire :	8796
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 12
+
+
+no. of accepted flips: 1
+no. of attempted flips: 2575
+THIS IS THE NUMBER OF TRACKS: 11
+
+
+Actual # of Feed Cells Added:	0
+
+
+
+
+***********************************************
+*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 11
+***********************************************
+
+FINAL TOTAL INTERCONNECT LENGTH: 16772
+FINAL OVERLAP PENALTY: 0    FINAL VALUE OF TOTAL COST IS: 16772
+MAX NUMBER OF ATTEMPTED FLIPS PER T:     285
+
+Statistics:
+Number of Cells: 69
+Number of Pads: 20 
+Number of Nets: 103 
+Number of Pins: 547 
+Number of PadGroups: 0 
+Number of Implicit Feed Thrus: 359
+Number of Feed Thrus Added: 0
+Feed Percentage: 0.00%
+Average Row Separation: 2.97
+
+
+Runtime Statistics
+-------------------------
+Machine name: captainnothing
+Date        : Sat Dec  9 23:27:22 2023
+
+User    time:   1.1 seconds
+System  time:   0.1 seconds
+Elapsed time:   1.2 seconds
+
+Average resident text size       =     0K
+Average resident data+stack size =     0K
+Maximum resident size            =  2368K
+Virtual memory size              = 1804110596K
+Virtual memory limit             =     0K (0K)
+
+Major page faults = 0
+Minor page faults = 338
+Swaps = 0
+
+Input blocks = 0
+Output blocks = 208
+
+Context switch (voluntary) = 35
+Context switch (involuntary) = 14
+
+TimberWolfSC terminated normally with no errors and 0 warning[s]
+

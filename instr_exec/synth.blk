@@ -1,0 +1,13 @@
+rows 3
+row -239 -200    2079 47 mirror
+row -239 47    2079 294
+row -239 294    2079 541 mirror
+
+/* 
+   The Tile and Macro Information:
+   numtiles 1
+   -240 -200   2080 2500
+
+   nummacros 0
+
+*/

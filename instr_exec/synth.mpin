@@ -1,0 +1,80 @@
+net rst
+pin rst x -240 y 220 cell 2 layer 1 PinOrEquiv 1
+pin pin1 x 0 y 220 cell 1 layer 0 PinOrEquiv 1
+
+net data[0]
+pin data[0] x -240 y 440 cell 2 layer 1 PinOrEquiv 1
+pin pin2 x 0 y 440 cell 1 layer 0 PinOrEquiv 1
+
+net data[3]
+pin data[3] x -240 y 660 cell 2 layer 1 PinOrEquiv 1
+pin pin3 x 0 y 660 cell 1 layer 0 PinOrEquiv 1
+
+net data[4]
+pin data[4] x -240 y 880 cell 2 layer 1 PinOrEquiv 1
+pin pin4 x 0 y 880 cell 1 layer 0 PinOrEquiv 1
+
+net data[5]
+pin data[5] x -240 y 1100 cell 2 layer 1 PinOrEquiv 1
+pin pin5 x 0 y 1100 cell 1 layer 0 PinOrEquiv 1
+
+net data[6]
+pin data[6] x -240 y 1320 cell 2 layer 1 PinOrEquiv 1
+pin pin6 x 0 y 1320 cell 1 layer 0 PinOrEquiv 1
+
+net r
+pin r x 1527 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin7 x 0 y 1540 cell 1 layer 0 PinOrEquiv 1
+
+net PC[7]
+pin PC[7] x 1665 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin8 x 0 y 1760 cell 1 layer 0 PinOrEquiv 1
+
+net PC[6]
+pin PC[6] x 699 y 1619 cell 3 layer 1 PinOrEquiv 1
+pin pin9 x 0 y 1980 cell 1 layer 0 PinOrEquiv 1
+
+net PC[5]
+pin PC[5] x 561 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin10 x 0 y 2200 cell 1 layer 0 PinOrEquiv 1
+
+net PC[4]
+pin PC[4] x 423 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin11 x 0 y 2420 cell 1 layer 0 PinOrEquiv 1
+
+net PC[3]
+pin PC[3] x 285 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin12 x 0 y 2640 cell 1 layer 0 PinOrEquiv 1
+
+net PC[2]
+pin PC[2] x 9 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin13 x 0 y 2860 cell 1 layer 0 PinOrEquiv 1
+
+net PC[1]
+pin PC[1] x 837 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin14 x 0 y 3080 cell 1 layer 0 PinOrEquiv 1
+
+net PC[0]
+pin PC[0] x 147 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin15 x 0 y 3300 cell 1 layer 0 PinOrEquiv 1
+
+net w
+pin w x 1803 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin16 x 0 y 3520 cell 1 layer 0 PinOrEquiv 1
+
+net data[7]
+pin data[7] x 1389 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin17 x 0 y 3740 cell 1 layer 0 PinOrEquiv 1
+
+net data[1]
+pin data[1] x 1251 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin18 x 0 y 3960 cell 1 layer 0 PinOrEquiv 1
+
+net data[2]
+pin data[2] x 1113 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin19 x 0 y 4180 cell 1 layer 0 PinOrEquiv 1
+
+net clk
+pin clk x 975 y 1600 cell 3 layer 1 PinOrEquiv 1
+pin pin20 x 0 y 4400 cell 1 layer 0 PinOrEquiv 1
+

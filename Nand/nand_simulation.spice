@@ -1,0 +1,17 @@
+.option scale=1u
+.include techfile130.txt
+.include nand.spice
+
+vdd Vdd 0 1.2
+
+va A 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 50NS 100NS)
+vb B 0 1.2 PULSE(0 1.2 2NS 2NS 2NS 100NS 200NS)
+
+Xnand0 Vdd A B Out 0 NAND
+.tran 0.1n 500n 0 0.1n
+.control
+run
+plot v(A) v(B) v(out)
+//plot -i(vdd)
+.endc
+.end
